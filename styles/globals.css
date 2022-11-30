@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 
 html {
-  background-image: url("../public/bg.png");
+  background-image: url("https://i.postimg.cc/bwbd4phc/bg.png");
   background-size:cover;
   font-family: 'Manrope', sans-serif;
 
 }
 
 .main {
-  background-image: url("../public/bg.png");
+  background-image: url("https://i.postimg.cc/bwbd4phc/bg.png");
   background-size:cover;
 }
 
