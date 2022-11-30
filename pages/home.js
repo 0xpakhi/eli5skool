@@ -50,7 +50,7 @@ export default function home() {
           flexDir={"column"}
           marginTop={{base:"25px",md:"45px"}}
           className={"blur"}
-          height={{base:"90vh",md:"707px"}}
+          height={{base:"80vh",md:"707px"}}
           width={{base:"90vw",md:"1086px"}}
           borderRadius={"20px"}
           background={"rgba(0,0 , 0, 0.3)"}
