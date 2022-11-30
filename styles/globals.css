@@ -1,21 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 
-html {
-  background-image: url("https://i.postimg.cc/bwbd4phc/bg.png");
-  background-size:cover;
-  font-family: 'Manrope', sans-serif;
+@media only screen and (min-width: 768px) {
 
+  html {
+    background-image: url("https://i.postimg.cc/bwbd4phc/bg.png");
+    background-size: cover;
+    font-family: 'Manrope', sans-serif;
+
+  }
+
+  .main {
+    background-image: url("https://i.postimg.cc/bwbd4phc/bg.png");
+    background-size: cover;
+  }
+
+  .blur {
+    backdrop-filter: blur(5px);
+  }
+
+  input::selection {
+    border: 0;
+  }
 }
 
-.main {
-  background-image: url("https://i.postimg.cc/bwbd4phc/bg.png");
-  background-size:cover;
-}
+@media only screen and (max-width: 700px) {
+  html {
+    background-image: url("https://i.postimg.cc/bwbd4phc/bg.png");
+    object-fit: fill;
+    font-family: 'Manrope', sans-serif;
 
-.blur{
-  backdrop-filter: blur(5px);
-}
+  }
 
-input::selection {
-  border: 0;
+  .main {
+    background-image: url("https://i.postimg.cc/bwbd4phc/bg.png");
+    object-fit: fill;
+  }
 }
